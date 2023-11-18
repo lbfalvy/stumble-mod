@@ -1,4 +1,4 @@
-package com.example;
+package com.lbfalvy;
 
 import net.fabricmc.api.ClientModInitializer;
 
