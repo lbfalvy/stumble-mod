@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "stumble",
-	"version": "0.1",
+	"version": "1.1",
 	"name": "Stumble mod",
 	"description": "Running on stairs is dangerous and leads to serious injury or death",
 	"authors": [
