@@ -2,33 +2,30 @@
 	"schemaVersion": 1,
 	"id": "stumble",
 	"version": "0.1",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Stumble mod",
+	"description": "Running on stairs is dangerous and leads to serious injury or death",
 	"authors": [
-		"Me!"
+		{
+			"name": "Lawrence Bethlenfalvy",
+			"contact": {
+				"email": "lbfalvy@protonmail.com"
+			}
+		}
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/lbfalvy/stumble-mod",
+		"sources": "https://github.com/lbfalvy/stumble-mod",
+		"issues": "https://github.com/lbfalvy/stumble-mod/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/stumble/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.lbfalvy.ExampleMod"
-		],
-		"client": [
-			"com.lbfalvy.ExampleModClient"
+			"com.lbfalvy.StumbleMod"
 		]
 	},
-	"mixins": [
-		"stumble.mixins.json",
-		{
-			"config": "stumble.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.14.22",
 		"minecraft": "~1.19.0",

@@ -1,1 +1,1 @@
-An extraordinarily stupid Minecraft mod created purely to learn how to mod Minecraft
+An extraordinarily stupid Minecraft mod, the byproduct of my learning process. OSHA approved.
